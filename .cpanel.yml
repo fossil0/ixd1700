@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/public_html/deployment
+  - export DEPLOYPATH=/home/ixd1700/public_html/deployment-test
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
   - /bin/cp -R src/ $DEPLOYPATH
